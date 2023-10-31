@@ -1,0 +1,15 @@
+.init {
+    cursor:default;
+    text-align: center;
+    animation: animated  3s ease-in-out 3; 
+  }
+
+@keyframes animated {
+  to { opacity: 0; }
+}
+
+  .h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  

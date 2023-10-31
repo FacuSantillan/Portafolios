@@ -1,0 +1,26 @@
+.cont{
+    margin-top: 185%;
+    margin-left: 150%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 80px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centrar las imágenes horizontalmente */
+    align-items: center; /* Centrar las imágenes verticalmente */
+}
+
+.text{
+    position: absolute;
+    left: 2%;
+    top: 245%;
+}
+
+.img {
+    height: 230px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+.img:hover {
+    border: 1px solid rgb(251, 251, 251);
+    transform: scale(1.1);
+}
