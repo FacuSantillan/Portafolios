@@ -1,7 +1,7 @@
 
 import git from '../../assets/git.png';
 import foto from '../../assets/foto.jpg';
-import style from './Informacion.module.css';
+import style from './informacion.module.css';
 import linkedin from '../../assets/linkedin.png';
 
 export default function Informacion () {
