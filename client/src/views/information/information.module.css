@@ -54,16 +54,20 @@
 
 .section{
   position: inherit;
-  margin-top: 200%;
+  margin-top: 61%;
 }
 
 .section1{
   position: absolute;
-    top: 100%;
+    top: 230%;
     left: 4%;
 }
 
 .section2{
   position: absolute;
   top: 180%;
+}
+.section3{
+ margin-top: 60%;
+ margin-left: 40%;
 }

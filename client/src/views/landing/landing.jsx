@@ -14,11 +14,11 @@ function Landing() {
   return (
     <div className={style.init}>
       {showText ? (
-        <h1  style={{ fontFamily: 'Titillium Web, sans-serif', textAlign: 'center', color: 'color:#ffffff;' }}>
+        <h1 className={style.h2}  style={{ fontFamily: 'Titillium Web, sans-serif', textAlign: 'center', color: 'color:#fff;' }}>
           <h1  style={{ fontSize: '3rem', fontWeight: 'normal' }}>Welcome to:</h1>
         </h1>
       ) : (
-        <h1  style={{fontFamily: 'Titillium Web, sans-serif', textAlign: 'center', color: 'color:#ffffff;' }}>Facundo Santillan <h2 className={style.h2}>Portafolios</h2> </h1>
+        <h1 className={style.h1}  style={{fontFamily: 'Titillium Web, sans-serif', textAlign: 'center', color: 'color:#fff;' }}>Facundo Santillan <h2 className={style.h2}>Portafolios</h2> </h1>
       )}
 
     </div>

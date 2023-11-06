@@ -1,0 +1,13 @@
+.img {
+    position: absolute;
+    left: 83%;
+    top: 5%;
+    height: 130px;
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.img:hover {
+    transform: scale(2.5) translateX(-60px) translateY(40px); 
+}

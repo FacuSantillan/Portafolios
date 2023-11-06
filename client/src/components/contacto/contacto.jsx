@@ -1,10 +1,10 @@
-
-
-export default function Contacto () {
+import certificado from '../../assets/certificado.png'
+import style from './contacto.module.css'
+export default function Certificado () {
 
 return (
 <div>
-    <h1>Contacto</h1>
+    <img className={style.img} src={certificado}/>
 </div>
 )
 }
